@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js --ignore *.marko.js",
+    "start": "nodemon server.js --ignore *.marko.js 4000",
     "start2": "node server.js"
   },
   "repository": {
@@ -22,6 +22,7 @@
     "body-parser": "1.18.3",
     "express": "4.16.3",
     "marko": "4.13.4-1",
+    "method-override": "3.0.0",
     "sqlite3": "^4.1.0"
   }
 }
